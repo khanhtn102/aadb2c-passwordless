@@ -915,7 +915,6 @@
             <OutputClaim ClaimTypeReferenceId="givenName" />
             <OutputClaim ClaimTypeReferenceId="surname" />
             <OutputClaim ClaimTypeReferenceId="strongAuthenticationEmailAddress" />
-            <OutputClaim ClaimTypeReferenceId="email" />
             <OutputClaim ClaimTypeReferenceId="hasFullProfile" DefaultValue="true" AlwaysUseDefaultValue="true" />
           </OutputClaims>
           <IncludeTechnicalProfile ReferenceId="AAD-Common" />
